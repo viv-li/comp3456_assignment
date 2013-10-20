@@ -15,13 +15,13 @@ user_parameters = ((57,63), (fstrand.gc_content()-5,fstrand.gc_content()+10), No
 fprimers = find_primers(fstrand, user_parameters)
 rprimers = find_primers(rstrand, user_parameters)
 
-print 'Content-Type: text/html\n'
-print '''<!DOCTYPE html>
+print('Content-Type: text/html\n')
+print('''<!DOCTYPE html>
 <html>
   <head>
     <title>Hello %s!!</title>
   </head>
-  <body>'''
+  <body>''')
 
 count = 1
 for result in score_pairs(fprimers, rprimers):
@@ -40,5 +40,5 @@ for result in score_pairs(fprimers, rprimers):
     print()
     count += 1
 
-print '''</body>
-</html>'''
+print('''</body>
+</html>''')

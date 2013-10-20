@@ -67,4 +67,3 @@ def score_pairs(fprimers, rprimers):
         i += 1
     scores.sort()
     return scores[:5]
- 
