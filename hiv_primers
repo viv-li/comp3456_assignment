@@ -1,0 +1,20 @@
+1. Forward primer: 5'-tacatgtaatgcaacctatacc-3' start = 5599, length = 22bp, %GC = 36.36%, Tm = 60.57°C
+   Reverse primer: 5'-aagtcattggtcttaaaggtac-3' start = 8583, length = 22bp, %GC = 36.36%, Tm = 60.32°C
+   Product size = 2984bp, Optimal annealing temperature = 55.32°C
+
+2. Forward primer: 5'-catgtaatgcaacctatacc-3' start = 5601, length = 20bp, %GC = 40.00%, Tm = 59.72°C
+   Reverse primer: 5'-gtcattggtcttaaaggtac-3' start = 8581, length = 20bp, %GC = 40.00%, Tm = 57.88°C
+   Product size = 2980bp, Optimal annealing temperature = 52.88°C
+
+3. Forward primer: 5'-acatgtaatgcaacctatacc-3' start = 5600, length = 21bp, %GC = 38.10%, Tm = 60.58°C
+   Reverse primer: 5'-agtcattggtcttaaaggtac-3' start = 8582, length = 21bp, %GC = 38.10%, Tm = 58.97°C
+   Product size = 2982bp, Optimal annealing temperature = 53.97°C
+
+4. Forward primer: 5'-catcagaacagtcagactcat-3' start = 5550, length = 21bp, %GC = 42.86%, Tm = 62.53°C
+   Reverse primer: 5'-attctttcccttacagtaggc-3' start = 8401, length = 21bp, %GC = 42.86%, Tm = 62.70°C
+   Product size = 2851bp, Optimal annealing temperature = 57.53°C
+
+5. Forward primer: 5'-acatgtaatgcaacctatacc-3' start = 5600, length = 21bp, %GC = 38.10%, Tm = 60.58°C
+   Reverse primer: 5'-aagtcattggtcttaaaggtac-3' start = 8583, length = 22bp, %GC = 36.36%, Tm = 60.32°C
+   Product size = 2983bp, Optimal annealing temperature = 55.32°C
+

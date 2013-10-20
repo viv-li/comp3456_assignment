@@ -1,6 +1,16 @@
 from primer import Primer
 from primer import Target
+from string import whitespace
 
+##check if given string is a valid dna sequence
+def is_dna(string):
+    dna = "acgtACGT"+whitespace
+    for letter in string:
+        if letter not in dna:
+            return False
+    return True
+
+##ensures sequences contain only acgt and makes it all lowercase
 def clean_dna(seq):
     cleaned = ""
     for letter in seq.lower():
@@ -26,17 +36,14 @@ def weighted_distance(sv):
 
 ## given a single strand of DNA, find all acceptable primers
 ## mt, gc content, gc clamp or no, no homooligomers, no dinucleotide repeats, specificity
-def find_primers(target_dna, user_parameters):
+def find_primers(target_dna, user_parameters, search_range):
     primers = []
     if target_dna.len < 500:
         ideal_len = (16, 18)
-        search_range = 50
     elif target_dna.len > 2500:
         ideal_len = (20, 24)
-        search_range = 250
     else:
-        ideal_len = (18, 20)
-        search_range = 100
+        ideal_len = (17, 22)
     search_start = max(0, target_dna.start-search_range)
     
     for i in range(search_start, target_dna.start+1):
